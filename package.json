@@ -1,5 +1,5 @@
 {
-  "name": "demo-deploy",
+  "name": "demo-app-teddy",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
