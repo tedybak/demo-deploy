@@ -2,3 +2,8 @@
 .navbar{
     margin-top: 15px;
 }
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
