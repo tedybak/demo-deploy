@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CvComponent } from './cv/cv.component';
+import { HomeComponent } from './home/home.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CvComponent
+    CvComponent,
+    HomeComponent,
+    ExperienceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

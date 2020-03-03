@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {CvComponent} from './cv/cv.component'
+import { ExperienceComponent } from './experience/experience.component';
 
 
 const routes: Routes = [
-  {path:"cv", component:CvComponent}
+  {path:"", component:CvComponent},
+  {path:"experience", component:ExperienceComponent}
 ];
 
 @NgModule({
